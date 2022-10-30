@@ -15,6 +15,8 @@ document.addEventListener('click', function (e) {
 });
 
 button.addEventListener('click', function () {
+  if (ratingSelected.textContent === 'nothing') return;
   button.closest('.ratings-page').classList.add('hidden');
   ratingsPage.nextElementSibling.classList.remove('hidden');
 });
+console.log(ratings.forEach(ratings => ratings.classList.contains('selected')));
