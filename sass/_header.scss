@@ -1,0 +1,18 @@
+.attribution {
+  background-color: $color-primary;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: $color-neutral-4;
+  font-weight: 700;
+
+  a,
+  :active {
+    text-decoration: none;
+    color: $color-neutral-1;
+
+    &:hover {
+      color: $color-neutral-5;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+// Primary Colours
+$color-primary: hsl(25, 97%, 53%); // - Orange
+
+// Neutral Colours
+$color-neutral-1: hsl(0, 0%, 100%); // - White
+$color-neutral-2: hsl(217, 12%, 63%); // - Light Grey
+$color-neutral-3: hsl(216, 12%, 54%); // - Medium Grey
+$color-neutral-4: hsl(213, 19%, 18%); // - Dark Blue
+$color-neutral-5: hsl(216, 12%, 8%); // - Very Dark Blue
+
+$phone-only: 37.4375em; // 599px / 16px (use max-width)
+$desktop-up: 75em; // 1200px / 16px (use min-width)
+
+$font-family: 'Overpass', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: $font-family;
+  background-color: $color-neutral-5;
+}
